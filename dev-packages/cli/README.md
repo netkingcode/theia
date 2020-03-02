@@ -1,4 +1,14 @@
-# Theia CLI
+<div align='center'>
+
+<br />
+
+<img src='https://raw.githubusercontent.com/eclipse-theia/theia/master/logo/theia.svg?sanitize=true' alt='theia-ext-logo' width='100px' />
+
+<h2>THEIA - CLI EXTENSION</h2>
+
+<hr />
+
+</div>
 
 `theia` is a command line tool to manage Theia applications.
 
@@ -118,7 +128,7 @@ Theia CLI accepts `--inspect` node flag: https://nodejs.org/en/docs/inspector/#c
 
 First enable `expose-loader` in `webpack.config.js`
 to expose modules from bundled code to tests
-by uncommenting:
+by un-commenting:
 
 ```js
 /**
@@ -135,7 +145,7 @@ After that run `theia build` again to expose modules in generated bundle files.
 
 ### Writing tests
 
-See [API integrationg testing](../../doc/api-testing.md) docs.
+See [API Integration Testing](../../doc/api-testing.md) docs.
 
 ### Running tests
 
@@ -164,7 +174,7 @@ To inspect tests:
 
     theia test . --test-spec=./test/*.spec.js --test-inspect --inspect
 
-This command starts the application server in the debug mode 
+This command starts the application server in the debug mode
 as well as open the Chrome devtools to debug frontend code and test files.
 One can reload/rerun code and tests by simply reloading the page.
 
@@ -177,3 +187,17 @@ To report test coverage:
     theia test . --test-spec=./test/*.spec.js --test-coverage
 
 This command executes tests and generate test coverage files consumable by istanbyl.
+
+## Additional Information
+
+- [Theia - GitHub](https://github.com/eclipse-theia/theia)
+- [Theia - Website](https://theia-ide.org/)
+
+## License
+
+- [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0/)
+- [一 (Secondary) GNU General Public License, version 2 with the GNU Classpath Exception](https://projects.eclipse.org/license/secondary-gpl-2.0-cp)
+
+## Trademark
+"Theia" is a trademark of the Eclipse Foundation
+https://www.eclipse.org/theia

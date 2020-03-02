@@ -1,6 +1,18 @@
-# Theia - Core extension
+<div align='center'>
 
-See [here](https://www.theia-ide.org/doc/index.html) for a detailed documentation.
+<br />
+
+<img src='https://raw.githubusercontent.com/eclipse-theia/theia/master/logo/theia.svg?sanitize=true' alt='theia-ext-logo' width='100px' />
+
+<h2>THEIA - CORE EXTENSION</h2>
+
+<hr />
+
+</div>
+
+## Description
+
+The `@theia/core` extension is the main extension which provides functionality, base widgets, and contribution points for all dependent extensions. At a high-level, the extension allows for all dependent extensions the ability to contribute additional functionality to the application. For example, an application can contribute commands, menu items, statusbar items, new dialogs, and new widgets all with the help of `@theia/core`.
 
 ## Theia Extension
 
@@ -67,6 +79,17 @@ root INFO [nsfw-watcher: 10734] Started watching: /Users/captain.future/git/thei
 ```
 Where `root` is the name of the logger and `INFO` is the log level. These are optionally followed by the name of a child process and the process ID.
 
+## Additional Information
+
+- [API documentation for `@theia/core`](https://eclipse-theia.github.io/theia/docs/next/modules/core.html)
+- [Theia - GitHub](https://github.com/eclipse-theia/theia)
+- [Theia - Website](https://theia-ide.org/)
+
 ## License
+
 - [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0/)
 - [一 (Secondary) GNU General Public License, version 2 with the GNU Classpath Exception](https://projects.eclipse.org/license/secondary-gpl-2.0-cp)
+
+## Trademark
+"Theia" is a trademark of the Eclipse Foundation
+https://www.eclipse.org/theia

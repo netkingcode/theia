@@ -1,9 +1,30 @@
-# Theia - Search In Workspace Extension
+<div align='center'>
 
-Provides functionality used to search for files in a given workspace using different search techniques.
+<br />
 
-See [here](https://www.theia-ide.org/doc/index.html) for a detailed documentation.
+<img src='https://raw.githubusercontent.com/eclipse-theia/theia/master/logo/theia.svg?sanitize=true' alt='theia-ext-logo' width='100px' />
+
+<h2>THEIA - SEARCH-IN-WORKSPACE EXTENSION</h2>
+
+<hr />
+
+</div>
+
+## Description
+
+The `@theia/search-in-workspace` extension includes the ability to search for files in a given workspace using different search techniques.
+
+## Additional Information
+
+- [API documentation for `@theia/search-in-workspace`](https://eclipse-theia.github.io/theia/docs/next/modules/search_in_workspace.html)
+- [Theia - GitHub](https://github.com/eclipse-theia/theia)
+- [Theia - Website](https://theia-ide.org/)
 
 ## License
+
 - [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0/)
 - [一 (Secondary) GNU General Public License, version 2 with the GNU Classpath Exception](https://projects.eclipse.org/license/secondary-gpl-2.0-cp)
+
+## Trademark
+"Theia" is a trademark of the Eclipse Foundation
+https://www.eclipse.org/theia

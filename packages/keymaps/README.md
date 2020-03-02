@@ -1,8 +1,19 @@
-# Theia - Keymaps Extension
+<div align='center'>
 
-See [here](https://www.theia-ide.org/doc/index.html) for a detailed documentation.
+<br />
 
-An extension that allows the user to reconfigure default keybindings with custom keymaps. By modifying the appropriate `keymaps.json`, the user can modify existing keybindings, or add keybindings to commands that do not yet have a keybinding associated to them.
+<img src='https://raw.githubusercontent.com/eclipse-theia/theia/master/logo/theia.svg?sanitize=true' alt='theia-ext-logo' width='100px' />
+
+<h2>THEIA - KEYMAPS EXTENSION</h2>
+
+<hr />
+
+</div>
+
+## Description
+
+The `@theia/keymaps` allows the user to reconfigure default keybindings with custom keymaps.\
+By modifying the appropriate `keymaps.json`, the user can modify existing keybindings, or add keybindings to commands that do not yet have a keybinding associated to them.
 
 Example of a valid `keymaps.json` file
 
@@ -16,7 +27,7 @@ Example of a valid `keymaps.json` file
 ```
  where `command` is a unique command id and keybinding is a valid `keybinding`. There's also an optional `context` property that can be specified (which is also a unique string for a context id).
 
- ## Supported keys
+## Supported keys
 
 For most keys you can directly use the name of the key i.e `a`, `3`,  `/`, `-`.
 
@@ -34,6 +45,17 @@ Key sequences like: `ctrl+x ctrl+a` or `ctrl+a b c` are supported.  With the fol
  - If the key sequence exceeds 1 key chord it won't show in the electron menu.
  - If the key sequence exceeds 2 key chords it won't show in the command palette.
 
+## Additional Information
+
+- [API documentation for `@theia/keymaps`](https://eclipse-theia.github.io/theia/docs/next/modules/keymaps.html)
+- [Theia - GitHub](https://github.com/eclipse-theia/theia)
+- [Theia - Website](https://theia-ide.org/)
+
 ## License
+
 - [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0/)
 - [一 (Secondary) GNU General Public License, version 2 with the GNU Classpath Exception](https://projects.eclipse.org/license/secondary-gpl-2.0-cp)
+
+## Trademark
+"Theia" is a trademark of the Eclipse Foundation
+https://www.eclipse.org/theia
